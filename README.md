@@ -1,6 +1,6 @@
-# Proyecto Hyprland Config
+# Hyprland interface configuration and editor
 
-Este proyecto contiene configuraciones y scripts para personalizar Hyprland en Arch Linux, mejorando la experiencia de usuario y optimizando la gestión de ventanas.
+Este proyecto contiene mi archivo personal de configuración de hyprland (Arch Linux) junto a un pequeño programa .py para editar los bordes de la panatalla.
 
 ## Archivos Importantes
 
@@ -82,3 +82,50 @@ Para utilizar estos archivos en tu sistema, sigue estos pasos:
     ```bash
     chmod +x ~/.config/hypr/interfaz.py
     ```
+
+### Usar solo el gestor de interfaz:
+Copia todos las referencias de las variables globales en tu `hyprland.conf`.
+
+```bash
+$t_borde = 4
+$c_arriba = 00b9d9aa
+$c_abajo = ffd40eaa
+$c_inactivo = 001949aa
+$redondeado = 2
+```
+
+```bash
+
+general {
+    # See https://wiki.hyprland.org/Configuring/Variables/ for more
+
+    gaps_in = 5
+    gaps_out = 20
+    border_size = $t_borde
+    col.active_border = rgba($c_arriba) rgba($c_abajo) 45deg
+    col.inactive_border = rgba($c_inactivo)
+
+    layout = hy3
+    #     layout = dwindle
+
+    # Please see https://wiki.hyprland.org/Configuring/Tearing/ before you turn this on
+    allow_tearing = false
+}
+
+decoration {
+    # See https://wiki.hyprland.org/Configuring/Variables/ for more
+
+    rounding = $redondeado
+    
+    blur {
+        enabled = true
+        size = 5
+        passes = 1
+    }
+
+#    drop_shadow = yes
+#    shadow_range = 4
+#    shadow_render_power = 3
+#    col.shadow = rgba(1a1a1aee)
+}
+```
