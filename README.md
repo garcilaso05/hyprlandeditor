@@ -45,6 +45,7 @@ Configura atajos de teclado para mejorar la eficiencia y la productividad. Aquí
 
 Además, puedes instalar extensiones de Hyprland desde `hyprpm` para ampliar las funcionalidades y mejorar aún más la personalización.
 
+![2025-01-19-165504_hyprshot](https://github.com/user-attachments/assets/a2386da4-82ff-4c9c-b45c-408887518a96)
 
 
 ### `interfaz.py`
@@ -60,6 +61,7 @@ Este script utiliza un archivo `.json` para guardar el estado anterior de la con
 #### Archivos Relacionados:
 - **`hyprland_editor_state.json`**: Este archivo guarda el estado anterior de la configuración para mantener los ajustes al reiniciar. De esta manera, cualquier cambio que realices se conservará la próxima vez que inicies tu sistema.
 
+![2025-01-19-165612_hyprshot](https://github.com/user-attachments/assets/64651eb3-4fca-4bcf-8089-8ddfc3d9b6d4)
 
 
 ### Instalación y Uso
