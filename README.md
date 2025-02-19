@@ -47,6 +47,8 @@ Además, puedes instalar extensiones de Hyprland desde `hyprpm` para ampliar las
 
 ![2025-01-19-165504_hyprshot](https://github.com/user-attachments/assets/a2386da4-82ff-4c9c-b45c-408887518a96)
 
+> [!IMPORTANT]  
+> El proyecto de editar la interfaz se ha descontinuado de este repositorio. Esta versión solo edita los bordes de las ventanas pero es estable. Si quieres las ultimas actualizaciones clona el repositorio: [hyperlandEditor](https://github.com/garcilaso05/hyperlandEditor)
 
 ### `interfaz.py`
 El archivo `interfaz.py` se encarga de ajustar el tamaño, color y degradado del borde de las ventanas de Hyprland, proporcionando una interfaz más atractiva y coherente.
