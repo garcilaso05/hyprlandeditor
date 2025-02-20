@@ -2,6 +2,9 @@
 
 Este proyecto proporciona una interfaz gráfica para editar la configuración de Hyprland. Permite modificar los bordes de las ventanas, los colores, los atajos de teclado y más.
 
+![2025-02-20-141045_hyprshot](https://github.com/user-attachments/assets/2dfe0741-eec0-4811-a539-492dc7a375d9)
+
+
 ## Funcionalidades
 
 ### Configuración de Bordes y Colores
